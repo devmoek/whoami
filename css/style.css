@@ -192,7 +192,6 @@
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
   }
   
   @media (max-width: 30.625em) {
@@ -234,13 +233,13 @@
   .btn {
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 2px;
   }
   
   .btn-show-all {
     font-size: 2rem;
     background: var(--main-gray);
     transition: background 0.3s ease-out;
+    margin: 7vh;
   }
   
   .btn-show-all:hover {
@@ -258,7 +257,6 @@
   }
   
   /* Contact section */
-  
   .contact-section {
     display: flex;
     flex-direction: column;
@@ -303,7 +301,32 @@
   .contact-details:hover {
     transform: translateY(8px);
   }
-  
+
+  /* facebook */
+  .contact-details:nth-child(1):hover {
+    color: #4267B2;
+  }
+
+  /* github */
+  .contact-details:nth-child(2):hover {
+    color: #2B3137;
+  }
+
+  /* email */
+  .contact-details:nth-child(3):hover {
+    color: #0BC26A;
+  }
+
+  /* linkedin */
+  .contact-details:nth-child(4):hover {
+    color: #0E76A8;
+  }
+
+  /* youtube */
+.contact-details:nth-child(5):hover {
+  color: #ff0000;
+}
+
   /* Footer */
   
   footer {
