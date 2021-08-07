@@ -302,30 +302,45 @@
     transform: translateY(8px);
   }
 
-  /* facebook */
+  /* twitter */
   .contact-details:nth-child(1):hover {
+      color: #6998f7;
+  }
+
+  /* facebook */
+  .contact-details:nth-child(2):hover {
     color: #4267B2;
   }
 
   /* github */
-  .contact-details:nth-child(2):hover {
+  .contact-details:nth-child(3):hover {
     color: #2B3137;
   }
 
   /* email */
-  .contact-details:nth-child(3):hover {
+  .contact-details:nth-child(4):hover {
     color: #0BC26A;
   }
 
   /* linkedin */
-  .contact-details:nth-child(4):hover {
+  .contact-details:nth-child(5):hover {
     color: #0E76A8;
   }
 
   /* youtube */
-.contact-details:nth-child(5):hover {
+.contact-details:nth-child(6):hover {
   color: #ff0000;
 }
+
+  /* personal blog */
+  .contact-details:nth-child(7):hover {
+    color: #f3d653;
+  }
+
+    /* personal website in russian */
+    .contact-details:nth-child(8):hover {
+      color: #d6b6ff;
+    }
 
   /* Footer */
   
