@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact with moek</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>moek's blog</title>
 </head>
 <body>
+<?= 
+    require('components/header.php');
+?>
     
 </body>
 </html>

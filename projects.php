@@ -12,16 +12,9 @@
 </head>
 <body>
 
-
-<nav id="navbar" class="nav">
-    <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#projects">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<!-- end nav -->
+<?= 
+    require('components/header.php');
+?>
 
 
 <section id="projects" class="projects-section">

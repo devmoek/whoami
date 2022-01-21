@@ -1,42 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/logo.png">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css">
-
-  <title>moek</title>
-</head>
-
-<body>
-  <!-- start nav -->
-
-  <nav id="navbar" class="nav">
-    <ul class="nav-list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="blog.html">Blog</a></li>
-    </ul>
-  </nav>
-
-  <!-- end nav -->
-
   <!-- start welcome section -->
 
   <section id="welcome-section" class="welcome-section">
     <h1>Hey I am Mike</h1>
-    <p>a web developer</p>
+    <p>a full-stack developer</p>
   </section>
 
   <!-- end welcome section -->
+
+  <!--start about section -->
+    <section id="about" class="about-section">
+        <h2 class="about-section-header">About me</h2>
+        <div class="about-grid">
+            <h3>Hey 👋</h3>
+            <p>I'm Michael Myers, also known as moek, a developer with a big dream.</p>
+            <p>The stack I work on are HTML, CSS, JS, Gulp Build in the future ReactJS. I have a passion for coding, writing, video editing for my YouTube channels.</p>
+            <h4>My free time</h4>
+            <h5>Gaming</h5>
+            <p>I like to play games with my friends / alone. I like FPS games like Hunt Showdown, Deep Rock Galactic, Sea of Thieves. Sometimes I play in Roque-Like games like The Binding of Isaac, Risk of Rain 2, Enter & Exit the Gungeon. And my love is Survival Games, they are pretty hard to play but I still love it. There are games like Don't Starve Together, The Forest, Valheim, Minecraft yeah Minecraft is a great classic survival game. It seems like I'm a gamer, mb it is :) Also, If you want to check more games I play, go to my Steam profile.</p>
+
+            <h5>Sport</h5>
+            <p>I like running, swimming, skateboarding, cycling. Sometimes I'm running and cycling marathons. I met with running and cycling when I was pretty young. Skateboarding I like as a fast and cheap way to move from A to B. I met with skateboard when I was ~9. I met with swimming when I was 2-3 years old. From there to now I swim. Not so often I would be it will :(</p>
+        </div>
+    </section>
+  <!--end about section -->
 
   <!-- start projects section -->
   <section id="projects" class="projects-section">
@@ -131,6 +117,10 @@
       <a href="https://www.facebook.com/codemoek" target="_blank" class="btn contact-details"> 
         <i class="fab fa-facebook-square"></i> Facebook</a>
 
+      <!-- telegram -->
+      <a href="https://www.facebook.com/codemoek" target="_blank" class="btn contact-details"> 
+        <i class="fab fa-facebook-square"></i> Telegram</a>
+
       <!-- github -->
       <a id="profile-link" href="https://github.com/codemoek" target="_blank" class="btn contact-details">
         <i class="fab fa-github-square"></i> GitHub</a>
@@ -160,17 +150,7 @@
 
   <!-- end contact section -->
 
-  <!-- start footer section -->
-  <footer>
 
-    &copy;
-    <a href="https://www.linkedin.com/in/codemoek/" target="_blank">moek</a>
-  </footer>
-
-  <!-- end footer section -->
 
   <!-- js connection-->
   <script type="text/javascript" src="js/main.js"></script>
-</body>
-
-</html>
