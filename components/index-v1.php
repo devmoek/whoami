@@ -112,6 +112,16 @@
               </a>
             </div>
           </div>
+
+          <div class="hero canvas">
+            <img src="img/canvas.jpg" alt="canvas">
+            
+            <div class="link-to-project">
+              <a target="_blank" href="interactive-projects/canvas.html">
+                try it by yourself (just draw)
+              </a>
+            </div>
+          </div>
       </div>  
     </section>
   

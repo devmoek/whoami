@@ -349,7 +349,7 @@ img {
 
 /* css move text effect */
 .hero {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -367,6 +367,10 @@ img {
 .hero h3 {
   text-shadow: 10px 10px 0 rgba(0,0,0,1);
   font-size: 100px;
+}
+
+.canvas img{
+  width: 60%;
 }
 
 .link-to-project {
