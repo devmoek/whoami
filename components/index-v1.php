@@ -29,68 +29,49 @@
     <h2 class="projects-section-header">These are some of my projects</h2>
 
     <div class="projects-grid">
-      <!-- first item -->
-      <a href="https://codepen.io/moek/full/PoZvLvr" target="_blank" class="project project-tile">
-        <img class="project-image"
-          src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
-          alt="project">
-        <p class="project-title">
-          <span class="code">&lt;</span>
-          Tribute Page
-          <span class="code"> &#47;&gt;</span>
-        </p>
-      </a>
 
-      <!-- another item -->
-      <a href="https://codepen.io/moek/full/XWXwQOx" target="_blank" class="project project-title">
-        <img class="project-image" src="img/form.png" alt="project">
-        <p class="project-title">
-          <span class="code">&lt;</span>
-          Survey Form
-          <span class="code">&#47;&gt;</span>
-        </p>
-      </a>
+      <!-- interior studio website -->
+      <a href="static-projects/interior-studio.php" target="_blank" class="project project-tile">
+            <img class="project-image" src="img/interior-studio-homepage.png" alt="tribute page">
+            <p class="project-title">
+                <span class="code">&lt;</span>
+                  HTML CSS Website
+                <span class="code"> &#47;&gt;</span>
+            </p>
+        </a>
 
-
-      <!-- another item -->
-      <a href="https://codepen.io/moekdev/full/eYJqbpz" target="_blank" class="project project-title">
-        <img class="project-image" src="img/landing.png" alt="project">
-        <p class="project-title">
-          <span class="code">&lt;</span>
-          Landing Page
-          <span class="code">&#47;&gt;</span>
-        </p>
-      </a>
-
-      <!-- another item -->
+      <!-- js doc page -->
       <a href="https://codepen.io/moekdev/full/ExKjKmm" target="_blank" class="project project-title">
         <img class="project-image" src="img/documentation.png" alt="project">
         <p class="project-title">
           <span class="code">&lt;</span>
-          Documentation Page
+          JS Documentation Page
           <span class="code">&#47;&gt;</span>
         </p>
       </a>
 
-      <!-- another item -->
+      <!-- portfolio page -->
       <a href="#" target="_blank" class="project project-title">
-        <img class="project-image" src="img/student.png" alt="project">
+        <img class="project-image" src="img/portfolio-mainpage.png" alt="project">
         <p class="project-title">
           <span class="code">&lt;</span>
-          Student Website
+          Portfolio website
           <span class="code">&#47;&gt;</span>
         </p>
       </a>
 
-      <!-- another item -->
-      <a href="https://miloserdieomsk.ru" target="_blank" class="project project-title">
-        <img class="project-image" src="img/miloserdie.png" alt="project">
+      <!-- movies and tv shows website -->
+      <a href="#" target="_blank" class="project project-title">
+        <img class="project-image" src="img/movies-homepage.jpg" alt="project">
         <p class="project-title">
           <span class="code">&lt;</span>
-          Freelance Website
+          Movies and TV shows website
           <span class="code">&#47;&gt;</span>
         </p>
       </a>
+
+
+
     </div>
 
     <a href="projects.php" class="btn btn-show-all" target="_blank">Show all <i class="fas fa-chevron-right"></i>

@@ -16,37 +16,40 @@
     require('components/header.php');
 ?>
 
+<?= 
+    $project1_title = 'HTML CSS Website';
+?>
+
 <section id="projects" class="projects-section">
     <h2 class="projects-section-header">These are some of my projects</h2>
 
     <div class="projects-grid">
         <!-- first item -->
-        <a href="https://codepen.io/moek/full/PoZvLvr" target="_blank" class="project project-tile">
-            <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="tribute page">
+        <a href="static-projects/interior-studio.php" target="_blank" class="project project-tile">
+            <img class="project-image" src="img/interior-studio-homepage.png" alt="tribute page">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Tribute Page
+                <?= $project1_title ?>
                 <span class="code"> &#47;&gt;</span>
             </p>
         </a>
 
-        <!-- another item -->
-        <a href="https://codepen.io/moek/full/XWXwQOx" target="_blank" class="project project-title">
-            <img class="project-image" src="img/form.png" alt="survey form">
+        <!-- first item -->
+        <a href="https://codepen.io/moek/full/PoZvLvr" target="_blank" class="project project-tile">
+            <img class="project-image" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="tribute page">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Survey Form
-                <span class="code">&#47;&gt;</span>
+                HTML CSS Tribute Page
+                <span class="code"> &#47;&gt;</span>
             </p>
         </a>
-
 
         <!-- another item -->
         <a href="https://codepen.io/moekdev/full/eYJqbpz" target="_blank" class="project project-title">
             <img class="project-image" src="img/landing.png" alt="landing page">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Landing Page
+                HTML CSS Landing Page
                 <span class="code">&#47;&gt;</span>
             </p>
         </a>
@@ -56,7 +59,7 @@
             <img class="project-image" src="img/documentation.png" alt="documentation JS page">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Documentation Page
+                HTML CSS Documentation Page
                 <span class="code">&#47;&gt;</span>
             </p>
         </a>
@@ -66,17 +69,7 @@
             <img class="project-image" src="img/student.png" alt="student website">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Student website
-                <span class="code">&#47;&gt;</span>
-            </p>
-        </a>
-
-        <!-- another item -->
-        <a href="https://miloserdieomsk.ru" target="_blank" class="project project-title">
-            <img class="project-image" src="img/miloserdie.png" alt="charity website">
-            <p class="project-title">
-                <span class="code">&lt;</span>
-                Freelance website
+                HTML CSS Student Website
                 <span class="code">&#47;&gt;</span>
             </p>
         </a>
@@ -86,7 +79,7 @@
             <img class="project-image" src="img/my2.jpg" alt="movies and tv-shows website">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Movies & TV Shows website
+                HTML CSS Movies & TV Shows Website
                 <span class="code">&#47;&gt;</span>
             </p>
         </a>
@@ -97,7 +90,7 @@
             <div class="caption" onclick="view('img/shop.jpg')">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                 Clothes & Sneakers website
+                HTML CSS Clothes & Sneakers Website
                 <span class="code">&#47;&gt;</span>
             </p>
         </div>
@@ -108,7 +101,7 @@
             <img class="project-image" src="img/estetdent.png" alt="dental clinic website">
             <p class="project-title">
                 <span class="code">&lt;</span>
-                Dental Clinic website
+                HTML CSS JS PHP Dental Clinic Website
                 <span class="code">&#47;&gt;</span>
             </p>
         </a>
