@@ -122,6 +122,16 @@
               </a>
             </div>
           </div>
+
+          <div class="hero canvas">
+            <img src="img/drum-kit.jpg" alt="canvas">
+            
+            <div class="link-to-project">
+              <a target="_blank" href="interactive-projects/drum-kit.html">
+                play some cool bits
+              </a>
+            </div>
+          </div>
       </div>  
     </section>
   
