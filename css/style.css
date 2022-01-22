@@ -75,6 +75,13 @@ html {
   }
 }
 
+/* 375px / 16px = 23.4375em */
+@media (max-width: 23.4375em) {
+  html {
+    font-size: 58%;
+  }
+}
+
 /* Base styles */
 
 body {
@@ -88,7 +95,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Ginto', sans-serif;
   font-weight: 700;
   text-align: center;
 }
@@ -191,6 +198,22 @@ img {
   margin: 0 auto 6rem auto;
 }
 
+.about-grid h3 {
+  font-size: 3rem;
+}
+
+.about-grid h4 {
+  font-size: 2.5rem;
+}
+
+.about-grid h5 {
+  font-size: 2rem;
+}
+
+.about-grid p {
+  text-align: justify;
+}
+
 .about-section p {
   margin: 1.2em 0;
 }
@@ -199,18 +222,36 @@ img {
   margin-bottom: 1em;
 }
 
+/* 47.9375 = 767px */
+@media (max-width: 47.9375em) {
+  .about-grid p {
+    font-size: 1.8rem;
+  }
+}
 
+/* 35.625 = 570px */
+@media (max-width: 35.625em) {
+  .about-grid p {
+    font-size: 1.6rem;
+  }
+}
+
+/* 28.75em = 460px */
 @media (max-width: 28.75em) {
   .about-section-header {
     font-size: 4rem;
   }
 
-  .about-section {
-    font-size: 1.2rem;
+  .about-grid p {
+    font-size: 1.4rem;
   }
 }
-
-
+/* 23.4375em = 375px */
+@media (max-width: 23.4375em) {
+  .about-grid p {
+    font-size: 1rem;
+  }
+}
 
 /* Projects section */
 
@@ -304,6 +345,51 @@ img {
   transition: transform 0.3s ease-out;
 }
 
+/* Interactive projects section */
+
+/* css move text effect */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+/* for a page */
+.hero h1 {
+  text-shadow: 10px 10px 0 rgba(0,0,0,1);
+  font-size: 100px;
+}
+
+/* for a section */
+.hero h3 {
+  text-shadow: 10px 10px 0 rgba(0,0,0,1);
+  font-size: 100px;
+}
+
+.link-to-project {
+  margin-top: 2em;
+}
+
+.link-to-project a {
+  color: #0E76A8;
+  text-decoration: underline;
+}
+
+.interactive-section {
+  background-color: #fefefe;
+}
+
+.interactive-section-header {
+  padding: 2em;
+}
+
+.interactive-section-header h2{
+  color: #000;
+}
+
 /* Contact section */
 .contact-section {
   display: flex;
@@ -360,33 +446,38 @@ img {
   color: #4267B2;
 }
 
-/* github */
+/* telegram */
 .contact-details:nth-child(3):hover {
+  color: #28A4E4;
+}
+
+/* github */
+.contact-details:nth-child(4):hover {
   color: #2B3137;
 }
 
 /* email */
-.contact-details:nth-child(4):hover {
-  color: #0BC26A;
+.contact-details:nth-child(5):hover {
+  color: #16c46d;
 }
 
 /* linkedin */
-.contact-details:nth-child(5):hover {
+.contact-details:nth-child(6):hover {
   color: #0E76A8;
 }
 
 /* youtube */
-.contact-details:nth-child(6):hover {
+.contact-details:nth-child(7):hover {
   color: #ff0000;
 }
 
-/* personal blog */
-.contact-details:nth-child(7):hover {
+/* medium blog */
+.contact-details:nth-child(8):hover {
   color: #f3d653;
 }
 
-/* personal website in russian */
-.contact-details:nth-child(8):hover {
+/* dev.to profile */
+.contact-details:nth-child(9):hover {
   color: #d6b6ff;
 }
 
@@ -397,8 +488,8 @@ footer {
   text-align: center;
   background: var(--main-gray);
   border-top: 4px solid var(--main-red);
+  padding: 0.5em;
 }
-
 
 footer i {
   vertical-align: middle;

@@ -93,11 +93,29 @@
       </a>
     </div>
 
-    <a href="projects.html" class="btn btn-show-all" target="_blank">Show all <i class="fas fa-chevron-right"></i>
+    <a href="projects.php" class="btn btn-show-all" target="_blank">Show all <i class="fas fa-chevron-right"></i>
     </a>
   </section>
 
   <!-- end project section -->
+
+  <!-- start interactive project section -->
+    <section id="interactive-projects" class="interactive-section">
+      <div class="interactive-section-header">
+          <h2>Interactive Projects</h2>
+          <div class="hero">
+            <h3>🔥WOAH!</h3>
+            
+            <div class="link-to-project">
+              <a target="_blank" href="../interactive-projects/mouse-over-effect.html">
+                see how it looks with JS
+              </a>
+            </div>
+          </div>
+      </div>  
+    </section>
+  
+  <!-- end interactive project section -->
 
   <!-- start contact section -->
 
@@ -119,7 +137,7 @@
 
       <!-- telegram -->
       <a href="https://www.facebook.com/codemoek" target="_blank" class="btn contact-details"> 
-        <i class="fab fa-facebook-square"></i> Telegram</a>
+        <i class="fab fa-telegram-plane"></i> Telegram</a>
 
       <!-- github -->
       <a id="profile-link" href="https://github.com/codemoek" target="_blank" class="btn contact-details">
@@ -149,8 +167,3 @@
   </section>
 
   <!-- end contact section -->
-
-
-
-  <!-- js connection-->
-  <script type="text/javascript" src="js/main.js"></script>

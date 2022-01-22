@@ -8,14 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
-    <title>moek projects</title>
+    <title>moek's projects</title>
 </head>
 <body>
 
 <?= 
     require('components/header.php');
 ?>
-
 
 <section id="projects" class="projects-section">
     <h2 class="projects-section-header">These are some of my projects</h2>

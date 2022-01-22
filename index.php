@@ -19,6 +19,9 @@
       require('components/index-v1.php');
       require('components/footer.php');
    ?>
+
+     <!-- js connection-->
+  <script src="js/main.js"></script>
 </body>
 
 
