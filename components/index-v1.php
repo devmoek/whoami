@@ -107,7 +107,7 @@
             <h3>🔥WOAH!</h3>
             
             <div class="link-to-project">
-              <a target="_blank" href="../interactive-projects/mouse-over-effect.html">
+              <a target="_blank" href="interactive-projects/mouse-over-effect.html">
                 see how it looks with JS
               </a>
             </div>
